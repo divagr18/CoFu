@@ -1,0 +1,7 @@
+<h1>Competitor Analysis Input</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Analyze Competitors</button>
+</form>

@@ -1,0 +1,7 @@
+<h1>Market Size Estimation Input</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Estimate Market Size</button>
+</form>

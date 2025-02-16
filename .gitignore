@@ -1,0 +1,110 @@
+# Created by https://www.gitignore.io
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+cofounder_backend/chroma/chroma.sqlite3
+cofounder_backend/chroma/17de6ffc-117c-4942-be27-443a62934228/data_level0.bin
+cofounder_backend/chroma/17de6ffc-117c-4942-be27-443a62934228/header.bin
+cofounder_backend/chroma/17de6ffc-117c-4942-be27-443a62934228/length.bin
+cofounder_backend/chroma/17de6ffc-117c-4942-be27-443a62934228/link_lists.bin
+cofounder_backend/chroma/37341873-cfe5-4273-a888-b5a9f3be2e3a/data_level0.bin
+cofounder_backend/chroma/37341873-cfe5-4273-a888-b5a9f3be2e3a/header.bin
+cofounder_backend/chroma/37341873-cfe5-4273-a888-b5a9f3be2e3a/length.bin
+cofounder_backend/chroma/37341873-cfe5-4273-a888-b5a9f3be2e3a/link_lists.bin
+cofounder_backend/chroma/47f072ba-6989-4eb3-b7ba-0c15051472c8/data_level0.bin
+cofounder_backend/chroma/47f072ba-6989-4eb3-b7ba-0c15051472c8/header.bin
+cofounder_backend/chroma/47f072ba-6989-4eb3-b7ba-0c15051472c8/length.bin
+cofounder_backend/chroma/47f072ba-6989-4eb3-b7ba-0c15051472c8/link_lists.bin
+cofounder_backend/chroma/5613ed37-1a62-425e-9102-fb60a50067dd/data_level0.bin
+cofounder_backend/chroma/5613ed37-1a62-425e-9102-fb60a50067dd/header.bin
+cofounder_backend/chroma/5613ed37-1a62-425e-9102-fb60a50067dd/length.bin
+cofounder_backend/chroma/5613ed37-1a62-425e-9102-fb60a50067dd/link_lists.bin
+cofounder_backend/chroma/b3744aee-1408-48ac-aee8-0dcad2c5e24f/data_level0.bin
+cofounder_backend/chroma/b3744aee-1408-48ac-aee8-0dcad2c5e24f/header.bin
+cofounder_backend/chroma/b3744aee-1408-48ac-aee8-0dcad2c5e24f/length.bin
+cofounder_backend/chroma/b3744aee-1408-48ac-aee8-0dcad2c5e24f/link_lists.bin

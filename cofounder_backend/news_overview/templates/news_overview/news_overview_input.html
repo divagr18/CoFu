@@ -1,0 +1,7 @@
+<h1>Sector News Overview Input</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Get News Overview</button>
+</form>

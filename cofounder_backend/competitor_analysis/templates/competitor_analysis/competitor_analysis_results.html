@@ -1,0 +1,17 @@
+<h1>Competitor Analysis Results</h1>
+
+<h2>Competitor 1</h2>
+<p>{{ competitor_1 }}</p>
+
+{% if competitor_2 %}
+    <h2>Competitor 2</h2>
+    <p>{{ competitor_2 }}</p>
+{% endif %}
+
+{% if competitor_3 %}
+    <h2>Competitor 3</h2>
+    <p>{{ competitor_3 }}</p>
+{% endif %}
+
+<h2>Competitor Analysis Summary</h2>
+<pre>{{ competitor_analysis_result|linebreaksbr }}</pre>

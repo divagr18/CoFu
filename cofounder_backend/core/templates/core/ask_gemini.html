@@ -1,0 +1,12 @@
+<h1>Ask Gemini</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Ask</button>
+</form>
+
+{% if gemini_response %}
+    <h2>Gemini's Response:</h2>
+    <pre>{{ gemini_response|linebreaksbr }}</pre>
+{% endif %}

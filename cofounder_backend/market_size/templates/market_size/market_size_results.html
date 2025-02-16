@@ -1,0 +1,23 @@
+<h1>Market Size Estimation Results</h1>
+
+<h2>Industry</h2>
+<p>{{ industry }}</p>
+
+<h2>Region</h2>
+<p>{{ region }}</p>
+
+<h2>Target Market</h2>
+<p>{{ target_market }}</p>
+
+{% if customer_segment %}
+    <h2>Customer Segment</h2>
+    <p>{{ customer_segment }}</p>
+{% endif %}
+
+{% if average_selling_price %}
+    <h2>Average Selling Price</h2>
+    <p>{{ average_selling_price }} USD</p>
+{% endif %}
+
+<h2>Market Size Estimation</h2>
+<pre>{{ market_size_result|linebreaksbr }}</pre>
